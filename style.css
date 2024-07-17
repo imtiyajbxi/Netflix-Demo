@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.head-hero{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background.jpg);
+    background-size: cover;
+    /**background-attachment: fixed;**/
+    background-position: center;
+    height: 700px;
+}
+/**navbar**/
+.navbar{
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 80px;
+    width: 250px;
+    padding: 20px; 
+}
+.logo{
+    background-image: url(netflix-logo.png);
+    background-size: cover;
+    height: 70px;
+    width: 100%; 
+}
+.nav-signin{
+    height: 95px;
+    width: 70px;
+    padding: 40px;
+}
+.in-butt{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+
+/**hero section**/
+.hero-section{
+    text-align: center;
+    padding-top: 140px;
+}
+.text1{
+    color: white;
+    font-size: 30px;
+}
+.text2{
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.text3{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.start{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.in input{
+    height: 40px;
+    width: 365px;
+    background: transparent;
+    color: white;
+    border: 0.5px solid gray;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.butt1{
+    padding-left: 10px;
+}
+.str-butt{
+    height: 43px;
+    width: 214px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+.top-border1{
+    height: 10px;
+    background-color: rgb(48, 48, 48);
+}
+.enjoy{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.enjoy-tv{
+    color: white;
+}
+.enjoy-tv h1{
+    font-size: 50px;
+}
+.enjoy-tv p{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.tv-img{
+    height: 400px;
+    width: 520px;
+}
+.img{
+    background-image: url(tv.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.top-border2{
+    height: 10px;
+    background-color: rgb(48, 48, 48);
+}
+.download{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mobile-img{
+    height: 350px;
+    width: 350px;
+}
+.img2{
+    background-image: url(mobile-0819.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.download-show{
+    color: white;
+}
+.download-show h1{
+    font-size: 50px;
+}
+.download-show p{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.top-border3{
+    height: 10px;
+    background-color: rgb(48, 48, 48);
+}
+.kids{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.create-profile{
+    color: white;
+}
+.create-profile h1{
+    font-size: 50px;
+}
+.create-profile p{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.kid-img{
+    height: 450px;
+    width: 550px;
+}
+.img3{
+    background-image: url(AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.top-border4{
+    height: 10px;
+    background-color: rgb(48, 48, 48);
+}
+/**Frequently Asked Questions**/
+.qa{
+    height: 900px;
+    background-color: black;
+}
+.qa h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.box-part{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    box-sizing: border-box;
+    height: 80px;
+    width: 80%;
+    background-color: rgb(61, 60, 60);
+    
+}
+.box:hover{
+    background-color: rgb(88, 87, 87);
+    transition-duration: 1s;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.box1 p{
+    font-size: 35px;
+}
+.box1 i{
+    font-size: 35px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.box2 p{
+    font-size: 35px;
+}
+.box2 i{
+    font-size: 35px;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.box3 p{
+    font-size: 35px;
+}
+.box3 i{
+    font-size: 35px;
+}
+.box4{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.box4 p{
+    font-size: 35px;
+}
+.box4 i{
+    font-size: 35px;
+}
+.box5{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.box5 p{
+    font-size: 35px;
+}
+.box5 i{
+    font-size: 35px;
+}
+.box6{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.box6 p{
+    font-size: 35px;
+}
+.box6 i{
+    font-size: 35px;
+}
+.last-sign{
+    padding-top: 50px;
+    color: white;
+}
+.last-sign h3{
+    text-align: center;
+}
+.top-border5{
+    height: 10px;
+    background-color: rgb(48, 48, 48);
+}
+footer{
+    height: 400px;
+    background-color: black;
+}
+.links{
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.links ul a{
+    padding-top: 20px;
+    display: block;
+    color: white;
+}
+.links ul a:hover{
+    color: red;
+}
+.last-button{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.last-butt{
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.last-butt:hover{
+    color: red;
+    border: 1px solid red;
+    transition-duration: 1s;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+@media screen and (max-width: 1020px){
+    .enjoy{
+        flex-direction: column;
+    }
+    .enjoy-tv{
+        text-align: center;
+    }
+    .download{
+        flex-direction: column;
+    }
+    .download-show{
+        text-align: center;
+    }
+    .kids{
+        flex-direction: column;
+    }
+    .create-profile{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 601px){
+    .start{
+        flex-direction: column;
+        align-items: center;
+    }
+    .qa{
+        height: 1000px;
+    }
+    .butt1{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 549px){
+    .tv-img{
+        height: 200px;
+        width: 260px;
+    }
+    .kid-img{
+        height: 225px;
+        width: 275px;
+    }
+}
+@media screen and (max-width: 490px){
+    .text1{
+        font-size: 15px;
+    }
+    .text2{
+        font-size: 10px;
+    }
+    .text3{
+        font-size: 10px;
+    }
+    .enjoy-tv h1{
+        font-size: 30px;
+    }
+    .enjoy-tv p{
+        font-size: 20px;
+    }
+    .download-show h1{
+        font-size: 30px;
+    }
+    .download-show p{
+        font-size: 20px;
+    }
+    .create-profile h1{
+        font-size: 30px;
+    }
+    .create-profile p{
+        font-size: 20px;
+    }
+    .qa h1{
+        font-size: 30px;
+    }
+    .box1 p{
+        font-size: 25px;
+    }
+    .box1 i{
+        font-size: 25px;
+    }
+    .box2 p{
+        font-size: 25px;
+    }
+    .box2 i{
+        font-size: 25px;
+    }
+    .box3 p{
+        font-size: 25px;
+    }
+    .box3 i{
+        font-size: 25px;
+    }
+    .box4 p{
+        font-size: 25px;
+    }
+    .box4 i{
+        font-size: 25px;
+    }
+    .box5 p{
+        font-size: 25px;
+    }
+    .box5 i{
+        font-size: 25px;
+    }
+    .box6 p{
+        font-size: 25px;
+    }
+    .box6 i{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 465px){
+    .links ul a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 412px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 377px){
+    .in input{
+        width: 300px;
+    }
+    footer{
+        height: 800px;
+    }
+    .links{
+        flex-direction: column;
+        text-align: center;
+    }
+    .last-butt{
+        font-size: 10px;
+        height: 30px;
+        width: 80px;
+    }
+    .last-button{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 349px){
+    .mobile-img{
+        height: 300px;
+        width: 300px;
+    }
+}
